@@ -177,7 +177,7 @@
                 }
             ],
             "editor/title": [
-                {
+                {   // 우측 navigation bar icon  
                     "command": "git.viewFileHistory",
                     "group": "navigation",
                     "when": "config.git.enabled && !config.gitHistory.editorTitleButtonOpenRepo && resourceScheme == file && gitOpenRepositoryCount != 0 && config.gitHistory.showEditorTitleMenuBarIcons"
@@ -215,6 +215,7 @@
             ],
             "explorer/context": [
                 {
+                    // 좌측 파일 목록들에서 우클릭
                     "command": "git.viewFileHistory",
                     "group": "git",
                     "when": "config.git.enabled && gitOpenRepositoryCount != 0"
